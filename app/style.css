@@ -7,6 +7,8 @@
     text-align: center;
     margin-top: 100px;
     background-image: url("./images/money2.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
     border-radius: 20px;
 }
 
@@ -18,6 +20,8 @@
 #price-input {
     text-align: center;
     margin-bottom: 30px;
+    border-color: gray;
+    border-radius: 15px;
 }
 
 #how-wasit {
@@ -36,4 +40,6 @@
 
 #calculate-total {
     margin-top: 15px;
+    border-radius: 10px;
+    border-color: black;
 }

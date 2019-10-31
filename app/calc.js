@@ -19,9 +19,8 @@ $("#calculate-total").on("click", function() {
     var tipValue = document.getElementById("tipVal").value;
     
     var grandTotal = billTotal * tipValue
-    console.log(grandTotal)
 
-    resultText.textContent = "$" + grandTotal
+    resultText.textContent = "$" + grandTotal.toFixed(2)
 
     $("#calculate-total").hide()
 
