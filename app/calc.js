@@ -23,6 +23,8 @@ $("#calculate-total").on("click", function() {
 
     resultText.textContent = "$" + grandTotal
 
+    $("#calculate-total").hide()
+
 })
 
 // Leave a review or see reviews

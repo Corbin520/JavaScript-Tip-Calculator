@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" type="text/css">
     <title>Tip Calculator</title>
 </head>
 
@@ -18,11 +19,14 @@
         <div class="card-body">
             <h1 id="main-heading">Tip Calculator</h1>
 
+            <p id="how-much">How much was your bill?</p>
+
             <div class="calculator-wrapper">
                 <input id="price-input" placeholder="Bill Amount" type="text">
                 <br>
 
                 <!-- Start of drop down code -->
+                <h3 id="how-wasit">How was your meal?</h3>
                 <select id="tipVal">
                     <option disabled selected value="0">Choose an Option</option>
                     <option value="0.3">30% Excellent</option>
